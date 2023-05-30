@@ -1,0 +1,260 @@
+{
+  "id": "3bae80ff-1a84-49f1-88fb-105abe705773",
+  "version": "2.0",
+  "name": "DAY_3",
+  "url": "https://demo.opencart.com/",
+  "tests": [{
+    "id": "f7ce9ee4-12ce-45da-a4a2-e1e240d746be",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "759c2e56-a51b-49dd-bf63-91a93e784cb2",
+    "name": "TC-001",
+    "commands": [{
+      "id": "3d505ceb-b683-4d0d-ba5a-495ea7e5b710",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23fd87fd-29ea-4a5c-85a4-b41dfcd1aa46",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f585203a-388e-46da-96a8-71907c0ca7ba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Desktops",
+      "targets": [
+        ["linkText=Desktops", "linkText"],
+        ["css=.show:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Desktops')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=20')]", "xpath:href"],
+        ["xpath=//nav/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Desktops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e20720b-4c2c-4aa5-8412-6332e71a0f47",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mac (1)",
+      "targets": [
+        ["linkText=Mac (1)", "linkText"],
+        ["css=.show li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Mac (1)')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=20_27')]", "xpath:href"],
+        ["xpath=//div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mac (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ed360b4-e83e-4a75-9e76-9f22afd7d9a8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f2ac69ec-93d4-4b27-80f3-56633afbbd47",
+    "name": "TC-002",
+    "commands": [{
+      "id": "2a606cf7-e207-4890-b6ca-5162ceec3e7d",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c862d04-c26b-4c4b-80b3-285f7b8ade0c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a7e7ad7-d637-4603-8fd4-c39d9e4ac2f2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Phones & PDAs",
+      "targets": [
+        ["linkText=Phones & PDAs", "linkText"],
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Phones & PDAs')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=24')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Phones & PDAs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6be1f2e5-96bd-403e-81c3-280343bb3da0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(1) .img-fluid",
+      "targets": [
+        ["css=.col:nth-child(1) .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='HTC Touch HD']", "xpath:img"],
+        ["xpath=//div[@id='product-list']/div/form/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//form/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e83b172e-8d19-47e0-b13d-80bc1a487ddd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm:nth-child(2)",
+      "targets": [
+        ["css=.col-sm:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d82054fa-dc90-4929-8993-a61588eb4766",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=form:nth-child(4)",
+      "targets": [
+        ["css=form:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//div[2]/form", "xpath:position"]
+      ],
+      "value": "243.33331298828125,4.34375"
+    }, {
+      "id": "3b8dea6e-b870-4c79-ac54-6e6ee4d749db",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=form:nth-child(4)",
+      "targets": [
+        ["css=form:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//div[2]/form", "xpath:position"]
+      ],
+      "value": "243.33331298828125,4.34375"
+    }, {
+      "id": "8a4f5110-0233-4b15-bb00-f136b98b8236",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=form:nth-child(4)",
+      "targets": [
+        ["css=form:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//div[2]/form", "xpath:position"]
+      ],
+      "value": "243.33331298828125,4.34375"
+    }, {
+      "id": "0b9e0a68-54c8-49be-84cb-196f78f67e42",
+      "comment": "",
+      "command": "click",
+      "target": "css=form:nth-child(4)",
+      "targets": [
+        ["css=form:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//div[2]/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0893e663-2f43-4803-b9b5-3afe47a2908d",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'HTC Touch HD')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d1b315c-eeb0-415c-b73f-8644d8f50061",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=h2:nth-child(1)",
+      "targets": [
+        ["css=h2:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/ul[2]/li/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'$122.00')]", "xpath:innerText"]
+      ],
+      "value": "287.33331298828125,25.73956298828125"
+    }, {
+      "id": "b7fd23c1-d2e1-443e-8752-c03da5b4de80",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=h2:nth-child(1)",
+      "targets": [
+        ["css=h2:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/ul[2]/li/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'$122.00')]", "xpath:innerText"]
+      ],
+      "value": "287.33331298828125,25.73956298828125"
+    }, {
+      "id": "edb39d86-acae-425d-8631-2a1ad6a96b29",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=h2:nth-child(1)",
+      "targets": [
+        ["css=h2:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/ul[2]/li/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'$122.00')]", "xpath:innerText"]
+      ],
+      "value": "287.33331298828125,25.73956298828125"
+    }, {
+      "id": "b3b794ed-01a3-409e-81c0-fd8b8528c96e",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(1)",
+      "targets": [
+        ["css=h2:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/ul[2]/li/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'$122.00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f716c00f-cd32-4380-8aa6-1015970a56e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'HTC Touch HD')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff5c9424-25e7-4fc9-a6df-d5a2051921ec",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'HTC Touch HD')]", "xpath:innerText"]
+      ],
+      "value": "N"
+    }]
+  }],
+  "suites": [{
+    "id": "27d4a5b3-e7f1-44d0-81dc-27ef0be11132",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f7ce9ee4-12ce-45da-a4a2-e1e240d746be"]
+  }],
+  "urls": ["https://demo.opencart.com/"],
+  "plugins": []
+}
